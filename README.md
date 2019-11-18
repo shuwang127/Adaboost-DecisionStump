@@ -1,4 +1,4 @@
-# Adaboost
+# Adaboost with Decision Stump
 
 This a demo program that implements Adaboost method with decision stump week classifiers.
 
