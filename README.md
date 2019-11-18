@@ -2,7 +2,7 @@
 
 This a demo program that implements Adaboost method with decision stump week classifiers.
 
-The main entrance for the demo program is DSdemo.m
+The main entrance for the demo program is DSdemo.m.
 
 Decision stump : https://en.wikipedia.org/wiki/Decision_stump
 
