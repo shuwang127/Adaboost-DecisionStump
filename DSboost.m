@@ -1,6 +1,12 @@
 function [ predicts ] = DSboost( data, models, alphas )
 % calculate the predicts of DS boosting model
-%   Detailed explanation goes here
+% Input : data - N * dim
+%         models - a cell with model{i}
+%         model - struct
+%         model.n - 1 * 1
+%         model.map - branch * 2
+%         alphas - T * 1
+% Output: predicts - N * 1
 
 T = length(alphas);
 
