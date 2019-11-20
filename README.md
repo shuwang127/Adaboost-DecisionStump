@@ -8,4 +8,6 @@ Decision stump : https://en.wikipedia.org/wiki/Decision_stump
 
 Adaboost ensemble : https://en.wikipedia.org/wiki/AdaBoost
 
+![](./fig_boost.png)
+
 2019-11-18
