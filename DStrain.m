@@ -41,8 +41,8 @@ for i = 1 : dim
         label_sub = label(idx);
         dist_sub = dist(idx);
         % Entropy of Children
-        pn = sum( dist( find(label_sub == -1) ) ) / p;
-        pp = sum( dist( find(label_sub == +1) ) ) / p;
+        pn = sum( dist_sub( find(label_sub == -1) ) ) / p;
+        pp = sum( dist_sub( find(label_sub == +1) ) ) / p;
         if (pn * pp)
             entro_sub = - pn * log2(pn) - pp * log2(pp);
         else
